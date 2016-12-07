@@ -1,0 +1,17 @@
+:root {
+	/*
+	azul #259dd8
+	naranjo #faa41c
+	verde #95c56d
+	gris #96989b
+	 */
+	--equip-blue: #259dd8;
+	--equip-orange: #faa41c;
+	--equip-green: #95c56d;
+	--equip-grey: #96989b;
+	/* alias */
+	--quip-azul: var(--equip-blue);
+	--quip-naranjo: var(--equip-orange);
+	--quip-verde: var(--equip-green);
+	--quip-gris: var(--equip-grey);
+}
