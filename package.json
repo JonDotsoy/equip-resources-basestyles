@@ -1,6 +1,6 @@
 {
   "name": "equip-resources-basestyles",
-  "version": "0.1.0",
+  "version": "0.1.1-beta.0",
   "description": "Shared resources for component implementation.",
   "scripts": {},
   "engine": {
@@ -11,8 +11,8 @@
     "styles",
     "style"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Jonathan Delgado <hi@jon.soy>",
+  "license": "MIT",
   "dependencies": {
     "material-colors": "^1.2.0",
     "reset.css": "^2.0.2"
