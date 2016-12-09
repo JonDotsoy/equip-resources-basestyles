@@ -1,10 +1,9 @@
 # equip-resources-basestyles
+Shared resources for component implementation.
 
 [![npm](https://goo.gl/CuVcGV)](https://www.npmjs.com/package/equip-resources-basestyles)
 [![npm](https://goo.gl/0ojMSs)](https://www.npmjs.com/package/equip-resources-basestyles)
 ![Develo By 3s SpA](https://goo.gl/yeo8X3)
-
-Shared resources for component implementation.
 
 ## Styles CSS
 ### How Use
