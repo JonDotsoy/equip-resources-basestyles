@@ -1,6 +1,6 @@
 {
   "name": "equip-resources-basestyles",
-  "version": "0.1.1-beta.2",
+  "version": "0.1.1-beta.3",
   "description": "Shared resources for component implementation.",
   "scripts": {},
   "engines": {
@@ -17,6 +17,14 @@
   "dependencies": {
     "material-colors": "^1.2.0",
     "reset.css": "^2.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/JonDotsoy/equip-resources-basestyles/issues",
+    "email": "hi@jon.soy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JonDotsoy/equip-resources-basestyles.git"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
