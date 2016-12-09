@@ -1,10 +1,6 @@
+@import "material-colors/dist/colors.var.css";
+
 :root {
-	/*
-	azul #259dd8
-	naranjo #faa41c
-	verde #95c56d
-	gris #96989b
-	 */
 	--equip-blue: #259dd8;
 	--equip-orange: #faa41c;
 	--equip-green: #95c56d;

@@ -1,5 +1,4 @@
-@import "../node_modules/reset.css/reset.css";
-@import "../node_modules/material-colors/dist/colors.var.css";
-@import "./z-depth.css";
+@import "./reset.css";
 @import "./colors.css";
+@import "./z-depth.css";
 @import "./familyRoboto.css";

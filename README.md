@@ -1,4 +1,9 @@
 # equip-resources-basestyles
+
+[![npm](https://goo.gl/CuVcGV)](https://www.npmjs.com/package/equip-resources-basestyles)
+[![npm](https://goo.gl/0ojMSs)](https://www.npmjs.com/package/equip-resources-basestyles)
+![Develo By 3s SpA](https://goo.gl/yeo8X3)
+
 Shared resources for component implementation.
 
 ## Styles CSS
@@ -9,16 +14,12 @@ Shared resources for component implementation.
 
 ```css
 /*
-Other recomendables dependencies that you incorporate within the resources.
- - reset.css
- - material-colors
+ * This example [postcss-import](https://github.com/postcss/postcss-import)
  */
-@import "../node_modules/reset.css/reset.css";
-@import "../node_modules/material-colors/dist/colors.var.css";
-
-@import "../equip-resources-basestyles/css/colors.css";
-@import "../equip-resources-basestyles/css/z-depth.css";
-@import "../equip-resources-basestyles/css/familyRoboto.css";
+@import "equip-resources-basestyles/css/reset.css";
+@import "equip-resources-basestyles/css/colors.css";
+@import "equip-resources-basestyles/css/z-depth.css";
+@import "equip-resources-basestyles/css/familyRoboto.css";
 ```
 
 ### Overview
@@ -33,7 +34,7 @@ Other recomendables dependencies that you incorporate within the resources.
 > `(☞ﾟ∀ﾟ)☞` Sorry comming soon.
 
 ## LICENSE
-![(CC) by-sa](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)
+![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)
 
 Esta obra está bajo una [Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional](http://creativecommons.org/licenses/by-sa/4.0/).
 
