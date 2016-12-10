@@ -111,7 +111,7 @@ jspm_packages
 
 # Yarn Integrity file
 .yarn-integrity
-.yarn.lock
+yarn.lock
 
 ## Custom
 dest\
