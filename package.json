@@ -1,6 +1,6 @@
 {
   "name": "equip-resources-basestyles",
-  "version": "0.1.1-beta.4",
+  "version": "0.1.1-beta.5",
   "description": "Shared resources for component implementation.",
   "scripts": {},
   "style": "css/basestyles.css",

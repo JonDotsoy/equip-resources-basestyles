@@ -9,6 +9,7 @@ Shared resources for component implementation.
 ### How Use
 
 > We develop this styles with [PostCSS][], [PostCSS-import][], [PreCSS][] and [CSSNext][]. But of course the files no use all tools. So good luck.
+>
 > — [@JonDotsoy][]
 
 ```css
