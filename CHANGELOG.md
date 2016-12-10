@@ -10,3 +10,4 @@
 - `equip-image()` postcss plugin from [@JonDotsoy][]
 
 [@JonDotsoy]: https://github.com/jondotsoy
+
