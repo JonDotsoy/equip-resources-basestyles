@@ -1,13 +1,14 @@
 @import "material-colors/dist/colors.var.css";
 
 :root {
-	--equip-blue: #259dd8;
-	--equip-orange: #faa41c;
-	--equip-green: #95c56d;
-	--equip-grey: #96989b;
-	/* alias */
-	--quip-azul: var(--equip-blue);
-	--quip-naranjo: var(--equip-orange);
-	--quip-verde: var(--equip-green);
-	--quip-gris: var(--equip-grey);
+  --equip-blue: #259dd8;
+  --equip-orange: #faa41c;
+  --equip-green: #95c56d;
+  --equip-grey: #96989b;
+
+  /* alias */
+  --quip-azul: var(--equip-blue);
+  --quip-naranjo: var(--equip-orange);
+  --quip-verde: var(--equip-green);
+  --quip-gris: var(--equip-grey);
 }

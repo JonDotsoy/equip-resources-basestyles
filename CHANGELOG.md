@@ -1,6 +1,6 @@
 # Change Log
 
-## [0.1.1] - 2016-12-07
+## [0.1.1] - 2016-12-09
 ### Added
 - Colors styles from @JonDotsoy
 - Family Robot styles from @JonDotsoy
