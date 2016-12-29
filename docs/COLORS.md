@@ -1,5 +1,5 @@
 ## RED
---md-red-50: #ffebee;<span style="color: #ffebee;display: inline-block;width: 1em;height: 1em;"></span>
+--md-red-50: #ffebee;<span style="background-color: #ffebee;display: inline-block;width: 1em;height: 1em;"></span>
 --md-red-100: #ffcdd2;
 --md-red-200: #ef9a9a;
 --md-red-300: #e57373;
