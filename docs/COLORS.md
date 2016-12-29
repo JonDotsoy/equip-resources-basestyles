@@ -1,18 +1,20 @@
 ## RED
---md-red-50: #ffebee;<span style="background-color: #ffebee;display: inline-block;width: 1em;height: 1em;"></span>
---md-red-100: #ffcdd2;
---md-red-200: #ef9a9a;
---md-red-300: #e57373;
---md-red-400: #ef5350;
---md-red-500: #f44336;
---md-red-600: #e53935;
---md-red-700: #d32f2f;
---md-red-800: #c62828;
---md-red-900: #b71c1c;
---md-red-a100: #ff8a80;
---md-red-a200: #ff5252;
---md-red-a400: #ff1744;
---md-red-a700: #d50000;
+| Name Color | [CSS variables][] | Color Code | Preview |
+| ---------- | ----------------- | ---------- | ------- |
+| Red 50     | `--md-red-50`     | `#ffebee`  | ![Red 50 #ffebee](https://img.shields.io/badge/Red%2050-%23ffebee-%23ffebee.svg?style=flat-square) |
+| Red 100    | `--md-red-100`    | `#ffcdd2`  | ![Red 100 #ffcdd2](https://img.shields.io/badge/Red%20100-%23ffcdd2-%23ffcdd2.svg?style=flat-square) |
+| Red 200    | `--md-red-200`    | `#ef9a9a`  | ![Red 200 #ef9a9a](https://img.shields.io/badge/Red%20200-%23ef9a9a-%23ef9a9a.svg?style=flat-square) |
+| Red 300    | `--md-red-300`    | `#e57373`  | ![Red 300 #e57373](https://img.shields.io/badge/Red%20300-%23e57373-%23e57373.svg?style=flat-square) |
+| Red 400    | `--md-red-400`    | `#ef5350`  | ![Red 400 #ef5350](https://img.shields.io/badge/Red%20400-%23ef5350-%23ef5350.svg?style=flat-square) |
+| Red 500    | `--md-red-500`    | `#f44336`  | ![Red 500 #f44336](https://img.shields.io/badge/Red%20500-%23f44336-%23f44336.svg?style=flat-square) |
+| Red 600    | `--md-red-600`    | `#e53935`  | ![Red 600 #e53935](https://img.shields.io/badge/Red%20600-%23e53935-%23e53935.svg?style=flat-square) |
+| Red 700    | `--md-red-700`    | `#d32f2f`  | ![Red 700 #d32f2f](https://img.shields.io/badge/Red%20700-%23d32f2f-%23d32f2f.svg?style=flat-square) |
+| Red 800    | `--md-red-800`    | `#c62828`  | ![Red 800 #c62828](https://img.shields.io/badge/Red%20800-%23c62828-%23c62828.svg?style=flat-square) |
+| Red 900    | `--md-red-900`    | `#b71c1c`  | ![Red 900 #b71c1c](https://img.shields.io/badge/Red%20900-%23b71c1c-%23b71c1c.svg?style=flat-square) |
+| Red A100   | `--md-red-a100`   | `#ff8a80`  | ![Red A100 #ff8a80](https://img.shields.io/badge/Red%20a100-%23ff8a80-%23ff8a80.svg?style=flat-square) |
+| Red A200   | `--md-red-a200`   | `#ff5252`  | ![Red A200 #ff5252](https://img.shields.io/badge/Red%20a200-%23ff5252-%23ff5252.svg?style=flat-square) |
+| Red A400   | `--md-red-a400`   | `#ff1744`  | ![Red A400 #ff1744](https://img.shields.io/badge/Red%20a400-%23ff1744-%23ff1744.svg?style=flat-square) |
+| Red A700   | `--md-red-a700`   | `#d50000`  | ![Red A700 #d50000](https://img.shields.io/badge/Red%20a700-%23d50000-%23d50000.svg?style=flat-square) |
 
 --md-pink-50: #fce4ec;
 --md-pink-100: #f8bbd0;
@@ -291,3 +293,6 @@
 --md-white: #ffffff;
 
 --md-black: #000000;
+
+
+[CSS variables]: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables "Using CSS variables"
