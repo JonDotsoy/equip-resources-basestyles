@@ -1,0 +1,46 @@
+/* Sizes querys */
+:root {
+  --media-screen-mobile-m-min: calc(320px + 1);
+  --media-screen-mobile-l-min: calc(375px + 1);
+  --media-screen-mobile-min:   var(--media-screen-mobile-m);
+  --media-screen-tablet-min:   calc(425px + 1);
+  --media-screen-laptop-min:   calc(768px + 1);
+  --media-screen-laptop-l-min: calc(1024px + 1);
+  --media-screen-4k-min:       calc(2560px + 1);
+
+  --media-screen-mobile-s-max: 320px;
+  --media-screen-mobile-m-max: 375px;
+  --media-screen-mobile-l-max: 425px;
+  --media-screen-mobile-max:   var(--media-screen-mobile-l-max);
+  --media-screen-tablet-max:   768px;
+  --media-screen-laptop-max:   1024px;
+  --media-screen-laptop-l-max: 2560px;
+
+  --media-screen-bootstrap-sm-min: calc(768px + 1);
+  --media-screen-bootstrap-md-min: calc(992px + 1);
+  --media-screen-bootstrap-lg-min: calc(1200px + 1);
+
+  --media-screen-bootstrap-xs-max: 768px;
+  --media-screen-bootstrap-sm-max: 992px;
+  --media-screen-bootstrap-md-max: 1200px;
+}
+
+/* Options by Bootstrap http://getbootstrap.com/css/#grid-media-queries */
+@custom-media --media-screen-bootstrap-xs (          width <=  768px);
+@custom-media --media-screen-bootstrap-sm ( 992px >= width >   768px);
+@custom-media --media-screen-bootstrap-md (1200px >= width >   992px);
+@custom-media --media-screen-bootstrap-lg (          width >  1200px);
+
+/* Options by Chrome */
+@custom-media --media-screen-mobile-s (          width <=  320px);
+@custom-media --media-screen-mobile-m ( 375px >= width >   320px);
+@custom-media --media-screen-mobile-l ( 425px >= width >   375px);
+@custom-media --media-screen-tablet   ( 768px >= width >   425px);
+@custom-media --media-screen-laptop   (1024px >= width >   768px);
+@custom-media --media-screen-laptop-l (2560px >= width >  1024px);
+@custom-media --media-screen-4k       (          width >  2560px);
+
+/* Alias and Collection */
+@custom-media --media-screen-mobile-all (--media-screen-mobile-s), (--media-screen-mobile-m), (--media-screen-mobile-l);
+@custom-media --media-screen-mobile     (--media-screen-mobile-all);
+@custom-media --media-screen-laptop-all (--media-screen-laptop), (--media-screen-laptop-l);
