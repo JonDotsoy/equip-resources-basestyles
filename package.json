@@ -2,7 +2,9 @@
   "name": "equip-resources-basestyles",
   "version": "0.1.1-beta.7",
   "description": "Shared resources for component implementation.",
-  "scripts": {},
+  "scripts": {
+    "postpublish": "sh -c \"git tag v$npm_package_version\""
+  },
   "style": "css/basestyles.css",
   "engines": {
     "node": ">=6.9.2",
